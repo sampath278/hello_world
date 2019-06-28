@@ -1,0 +1,9 @@
+Host *
+	PubkeyAcceptedKeyTypes=+ssh-dss
+Host 192.168.7.2
+	IdentityFile ~/.ssh/hubrootkey
+	StrictHostKeyChecking no
+	CheckHostIP no
+	UserKnownHostsFile=/dev/null
+	ForwardX11 no
+	LogLevel=quiet
